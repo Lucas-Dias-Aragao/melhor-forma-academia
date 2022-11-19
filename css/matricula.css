@@ -1,0 +1,84 @@
+.matricula {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.matricula--titulo {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.matricula--titulo__tipo {
+    font-size: 2.125rem;
+    padding: 1.5rem 0 2.5rem 0;
+}
+
+.matricula-formulario .matricula-formulario__input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 10% 2rem 15%;
+}
+
+.matricula-formulario form div {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.matricula-formulario form div label {
+    font-size: 1.3rem;
+}
+
+.input-padrao {
+    width: 28.125rem;
+    height: 2rem;
+}
+
+.cep {
+    display: block;
+    width: 10rem;
+}
+
+.uf {
+    display: block;
+    width: 5rem;
+    font-size: 1.3rem
+}
+
+select {
+    height: 2rem;
+    width: 3rem;
+    margin-top: 0;
+}
+
+.seleciona-plano fieldset {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 0 25% 1rem 25%;
+}
+
+legend {
+    text-align: center;
+    font-size: 2.125rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.conluir {
+    width: 25.375rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    font-family: 'Metal Mania';
+    font-size: 1.5rem;
+    background-color: #D5CF51;
+}
+
+.conluir:hover {
+    background-color: #78730f;
+}
+

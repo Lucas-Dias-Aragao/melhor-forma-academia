@@ -26,12 +26,15 @@
     display: flex;
 }
 
-.cabecalho__nav ul li{
+.cabecalho__nav ul li a{
     margin-right: 1.5rem;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    
 }
 
-.cabecalho__nav ul li:hover{
+.cabecalho__nav ul li a:hover{
     color: #a09797;
     cursor: pointer;
 }
