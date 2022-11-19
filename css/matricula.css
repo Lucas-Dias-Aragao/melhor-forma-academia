@@ -82,3 +82,23 @@ legend {
     background-color: #78730f;
 }
 
+@media screen and (max-width: 600px) {
+    .matricula-formulario .matricula-formulario__input{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+
+    legend {
+        text-align: start;
+    }
+
+    .seleciona-plano fieldset {
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+
+    .seleciona-plano label{
+        padding: 0.5rem;
+    }
+}
