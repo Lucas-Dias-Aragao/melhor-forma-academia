@@ -86,16 +86,35 @@ legend {
     .matricula-formulario .matricula-formulario__input{
         display: flex;
         flex-direction: column;
-        margin-left: 0.5rem;
+        
+        margin-left: 0;
+        width: 95%;
+    }
+    .input-padrao {
+        width: 100%;
     }
 
     legend {
         text-align: start;
     }
 
+    .conluir {
+        width: 95%;
+    }
+
+
     .seleciona-plano fieldset {
         flex-direction: column;
-        margin-left: 0.5rem;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    legend {
+        text-align: center;
+    }
+
+
+    fieldset {
+        width: 100%;
     }
 
     .seleciona-plano label{
